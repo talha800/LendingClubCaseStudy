@@ -1,48 +1,49 @@
-# Project Name
-> Outline a brief description of your project.
+# Lending Club Case
+> Lending Club is a marketplace for personal loans. Our objective is to identify  risky loan applicants, then such loans can be reduced thereby cutting down the amount of credit loss. Identification of such applicants using EDA is the aim of this case study.
+
+> 
+.
 
 
-## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+## Work Flow
+* [Data Understanding](#general-information)
+* [Data Cleaning](#technologies-used)
+* [Data Analysis](#conclusions)
+* [Recommendations](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- The whole story is revolving around to analyze those factors which are
+  potentially involve in loan defaulter.
+- The most essential part is the data cleaning part so that we can analyze on
+  clean data other Garbage In = Garbage Out
+- By creating Univariate and Bivariate analyses, we can figure out some strong
+  factors which can identify potential variables which leads to loan default or
+  “Charge Off”
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+## Observations:
+- As the number of years increases loan amount increases and charged off increases
+- Fully paid increases when interest rate is low
+- Interest Rate increases as the year increases
+- Interest Rate Increases Charge off ratio increases
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
-## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+## Python Libraries Used
+- Pandas
+- matplotlib
+- Seaborn
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@talha800] - feel free to contact me!
 
 
 <!-- Optional -->
